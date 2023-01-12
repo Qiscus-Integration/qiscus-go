@@ -6,7 +6,7 @@ import (
 )
 
 // LibraryVersion : qiscus go library version
-const LibraryVersion = "v1.0.1"
+const LibraryVersion = "v1.0.0"
 
 var (
 	// DefaultHttpTimeout default timeout for go HTTP HttpClient
