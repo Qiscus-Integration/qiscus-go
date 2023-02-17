@@ -1,4 +1,4 @@
-module github.com/syahidfrd/qiscus-unofficial-go
+module github.com/Qiscus-Integration/qiscus-go
 
 go 1.14
 

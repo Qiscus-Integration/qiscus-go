@@ -1,7 +1,7 @@
-# Unofficial Qiscus API for Golang
-[![Go Reference](https://pkg.go.dev/badge/github.com/syahidfrd/qiscus-unofficial-go.svg)](https://pkg.go.dev/github.com/syahidfrd/qiscus-unofficial-go)
+# Qiscus API for Golang
+[![Go Reference](https://pkg.go.dev/badge/github.com/Qiscus-Integration/qiscus-go.svg)](https://pkg.go.dev/github.com/Qiscus-Integration/qiscus-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Go Report Card](https://goreportcard.com/badge/github.com/syahidfrd/qiscus-unofficial-go)](https://goreportcard.com/report/github.com/syahidfrd/qiscus-unofficial-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Qiscus-Integration/qiscus-go)](https://goreportcard.com/report/github.com/Qiscus-Integration/qiscus-go)
 
 This library is the abstraction of [Qiscus](https://www.qiscus.com) SDK & Multichannel API for access from applications written with Go.
 
@@ -9,15 +9,15 @@ This library is the abstraction of [Qiscus](https://www.qiscus.com) SDK & Multic
 Install qiscus-go with:
 
 ```sh
-go get -u github.com/syahidfrd/qiscus-unofficial-go
+go get -u github.com/Qiscus-Integration/qiscus-go
 ```
 
 Then, import it using:
 
 ```go
 import (
-    "github.com/syahidfrd/qiscus-unofficial-go"
-    "github.com/syahidfrd/qiscus-unofficial-go/$product$"
+    "github.com/Qiscus-Integration/qiscus-go"
+    "github.com/Qiscus-Integration/qiscus-go/$product$"
 )
 ```
 with `$product$` is the product of Qiscus such as `sdk` and `multichannel`.
@@ -29,9 +29,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/syahidfrd/qiscus-unofficial-go"
-	"github.com/syahidfrd/qiscus-unofficial-go/multichannel"
-	"github.com/syahidfrd/qiscus-unofficial-go/sdk"
+	"github.com/Qiscus-Integration/qiscus-go"
+	"github.com/Qiscus-Integration/qiscus-go/multichannel"
+	"github.com/Qiscus-Integration/qiscus-go/sdk"
 )
 
 func main() {

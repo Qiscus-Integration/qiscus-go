@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/syahidfrd/qiscus-unofficial-go"
+	"github.com/Qiscus-Integration/qiscus-go"
 )
 
 // GetRoomTags get room tags by room ID
